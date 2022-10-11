@@ -1,0 +1,19 @@
+>>composer global require laravel/installer
+>>laravel new example-app
+
+>>php artisan make:migration create_tareas_table
+>>php artisan migrate
+>>php artisan migrate:rollback
+
+>>php artisan make:model tarea
+
+
+>>php artisan make:controller tareacontroller -r --model=tarea
+
+>>php artisan make:component tareaformbody
+>>php artisan make:request tarearequest
+
+
+
+https://laravel.com/docs/9.x/validation
+https://parzibyte.me/blog/2019/06/20/laravel-mensajes-validacion-espanol/
